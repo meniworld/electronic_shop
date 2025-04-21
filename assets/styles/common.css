@@ -1,0 +1,24 @@
+:root {
+    --cerulean: #08a3db;
+    --black-squeeze: #e4f1f4;
+    --catalina-blue: #053c79;
+    --astral: #2f89af;
+    --viking: #60bcdb;
+    --kashmir-blue: #506f91;
+    --black-pearl: #071e3a;
+    --blumine: #1a638b;
+    --allports: #0673a4;
+    --regent-gray: #848c98;
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
