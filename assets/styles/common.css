@@ -1,14 +1,10 @@
 :root {
-    --cerulean: #08a3db;
-    --black-squeeze: #e4f1f4;
-    --catalina-blue: #053c79;
-    --astral: #2f89af;
-    --viking: #60bcdb;
-    --kashmir-blue: #506f91;
-    --black-pearl: #071e3a;
-    --blumine: #1a638b;
-    --allports: #0673a4;
-    --regent-gray: #848c98;
+    --primary: #08a3db;
+    --secondary: #a8f288;
+    --accent: #f9f871;
+    --cyan: #00bddd;
+    --robin-egg-blue: #00d3cb;
+    --eucalyptus: #4fe6ab;
     --white: #fff;
     --black: #000;
 }
@@ -21,4 +17,34 @@
 
 a {
     text-decoration: none;
+    color: var(--black);
+}
+
+
+.primary-btn {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: var(--cyan);
+}
+
+.secondary-btn {
+    background-color: var(--secondary);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background-color: var(--eucalyptus);
 }

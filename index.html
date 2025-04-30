@@ -4,23 +4,77 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Shop</title>
+    <title>Responsive E-Commerce Navbar</title>
     <link rel="stylesheet" href="assets/styles/common.css">
-    <link rel="stylesheet" href="assets/styles/mini-nav-bar.css">
-
+    <link rel="stylesheet" href="assets/styles/navbar.css">
 </head>
 
 <body>
-
-    <section class="mini-navbar">
-        <div class="motto">Empowering Your Everyday</div>
-        <div class="nav-right">
-            <a href="#store-location" class="nav-item">📍 Store</a>
-            <a href="#track-order" class="nav-item">🚚 Track Order</a>
-            <a href="#cart" class="nav-item">🛒 Cart</a>
-            <a href="#login" class="nav-item">🔐 Login</a>
+    <!-- NAV BAR START -->
+    <!-- Top Small Bar -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+           <a href=""> <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Donate Heart Icon" width="30"
+                height="30">Store Location</a>
         </div>
-    </section>
+        <div class="top-bar-right">
+            <div class="top-dropdown">
+                <a href="#">Language ▼</a>
+                <div class="top-dropdown-menu">
+                    <a href="#">English</a>
+                    <a href="#">Bangla</a>
+                    <a href="#">French</a>
+                </div>
+            </div>
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <nav class="main-navbar">
+        <div class="logo">
+            <img src="assets/images/logo/logo-trans.png" class="shop-nav-logo" alt="E Shop">
+        </div>
+
+        <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-container" id="navContainer">
+            <div class="nav-links">
+                <div class="dropdown">
+                    <a href="#">Categories</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Abc</a>
+                        <a href="#">Def</a>
+                        <a href="#">Ghi</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Products</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Abc</a>
+                        <a href="#">Def</a>
+                        <a href="#">Ghi</a>
+                    </div>
+                </div>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button class="secondary-btn">Search</button>
+            </div>
+        </div>
+    </nav>
+    <!-- NAV BAR END -->
+
+    <script src="assets/scripts/navbar.js"></script>
 
 </body>
 
