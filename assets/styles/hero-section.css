@@ -11,7 +11,7 @@
 .hero-left,
 .hero-right {
     flex: 1;
-    min-width: 300px;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -82,33 +82,11 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .hero-container {
-        flex-direction: column;
-    }
-
-    .hero-left,
-    .hero-right {
-        width: 100%;
-    }
-
-    .hero-image-container,
-    .hero-image-container.small {
-        height: 300px;
-    }
-
-    .hero-right {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .hero-right .hero-image-container.small {
-        width: calc(50% - 5px);
-    }
-}
-
 @media (max-width: 480px) {
+    .hero-section {
+        padding: 5px;
+    }
+
     .hero-right {
         flex-direction: column;
     }
