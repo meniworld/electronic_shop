@@ -20,6 +20,9 @@ a {
     color: var(--black);
 }
 
+.main-content{
+    margin: 180px 0;
+}
 
 .primary-btn {
     background-color: var(--primary);
