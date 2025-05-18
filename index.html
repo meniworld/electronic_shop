@@ -7,7 +7,7 @@
     <title>Electronic Shop</title>
     <link rel="stylesheet" href="assets/styles/common.css">
     <link rel="stylesheet" href="assets/styles/navbar.css">
-    <link rel="stylesheet" href="assets/styles/hero-section.css">
+    <link rel="stylesheet" href="assets/styles/slider-section.css">
     <link rel="stylesheet" href="assets/styles/categories-section.css">
     <link rel="stylesheet" href="assets/styles/product-card.css">
     <link rel="stylesheet" href="assets/styles/top-brands-section.css">
@@ -80,52 +80,51 @@
     <!-- NAV BAR END -->
     <!-- Main Content Section START -->
     <section class="main-content">
-        <!-- Hero Section START -->
-        <section class="hero-section">
-            <div class="hero-container">
-                <div class="hero-left">
-                    <a href="#">
-                        <div class="hero-image-container">
-                            <img src="assets/images/pexels-houzlook-3797991.jpg" alt="Featured Product">
-                            <div class="hero-overlay">
-                                <div class="hero-text">
-                                    <h2>Jhar Bati</h2>
-                                    <p>Experience like never before.</p>
-                                    <span class="primary-btn">Explore More</span>
-                                </div>
-                            </div>
+        <!-- Slider Section START -->
+        <section class="slider-section">
+            <div class="slider-container">
+                <!-- Slider Items -->
+                <div class="slider">
+                    <!-- Slide 1 -->
+                    <div class="slide active">
+                        <img src="assets/images/pexels-felipe-jaasiel-1138958-2363826.jpg" alt="Slide 1">
+                        <div class="slide-content">
+                            <h2 class="slide-title">First Slide Title</h2>
+                            <p class="slide-desc">This is a description for the first slide. It can be as long as needed.</p>
+                            <a href="#" class="secondary-btn">Explore More</a>
                         </div>
-                    </a>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="assets/images/pexels-heyho-5998120.jpg" alt="Slide 2">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Second Slide Title</h2>
+                            <p class="slide-desc">Description for the second slide goes here. Keep it concise.</p>
+                            <a href="#" class="secondary-btn">Explore More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="assets/images/pexels-houzlook-3797991.jpg" alt="Slide 3">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Third Slide Title</h2>
+                            <p class="slide-desc">Final slide description with different button style.</p>
+                            <a href="#" class="secondary-btn">Explore More</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="hero-right">
-                    <a href="#">
-                        <div class="hero-image-container small">
-                            <img src="assets/images/pexels-heyho-5998120.jpg" alt="Laptop">
-                            <div class="hero-overlay">
-                                <div class="hero-text">
-                                    <h2>Jhar Bati</h2>
-                                    <p>Performance meets portability.</p>
-                                    <span class="primary-btn">Explore More</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="hero-image-container small">
-                            <img src="assets/images/pexels-magda-ehlers-pexels-2549057.jpg" alt="Headphones">
-                            <div class="hero-overlay">
-                                <div class="hero-text">
-                                    <h2>Jhar Bati</h2>
-                                    <p>Immerse yourself in pure.</p>
-                                    <span class="primary-btn">Explore More</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                
+                <!-- Navigation Dots -->
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
                 </div>
             </div>
         </section>
-        <!-- Hero Section END -->
+        <!-- Slider Section END -->
         <!-- Categories Section END -->
         <section class="category-section">
             <div class="category-container">
@@ -560,6 +559,7 @@
     <!-- Main Content Section END -->
 
     <script src="assets/scripts/navbar.js"></script>
+    <script src="assets/scripts/slider.js"></script>
 
 </body>
 
