@@ -1,0 +1,119 @@
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 50px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: var(--accent);
+    font-size: 18px;
+    border-bottom: 2px solid var(--cyan);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-section p,
+.footer-section li {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: var(--white);
+}
+
+.footer-section ul li a:hover {
+    color: var(--primary);
+}
+
+.newsletter input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    border: none;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: var(--cyan);
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: var(--white);
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-bottom .copyright {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer-bottom .made-by {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer-bottom .made-by img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
