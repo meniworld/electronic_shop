@@ -1,6 +1,6 @@
 /* Top Bar */
 .top-bar {
-    background-color: var(--accent);
+    background-color: var(--secondary);
     display: flex;
     justify-content: space-between;
     align-items: center;
